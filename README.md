@@ -49,7 +49,11 @@ To avoid any dependency conflicts and ensure reproducibility, please follow thes
     ```bash
     conda activate torch_rlgym_env
 
-3. **Install all required packages via requirements.txt:**
+3. **Install CUDA Toolkit via Conda:**
+    ```bash
+    conda install -c "nvidia/label/cuda-12.1.0" cuda-toolkit
+
+4. **Install all required packages via requirements.txt:**
     ```bash
     pip install -r requirements.txt
 
